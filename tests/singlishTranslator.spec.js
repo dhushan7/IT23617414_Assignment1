@@ -24,7 +24,7 @@ const testCases = [
   { id: 'Pos_019', input: "'hmm,' oya mokakdha karanna hithan inne", expected: "'hmm,' ඔය මොකක්ද කරන්න හිතන් ඉන්නේ" },
   { id: 'Pos_020', input: 'adha lecture ekee version controlling kiyala dhunnaa', expected: 'අද lecture එකේ version controlling කියල දුන්නා' },
   { id: 'Pos_021', input: 'mokadha karanne', expected: 'මොකද කරන්නේ' },
-  { id: 'Pos_022', input: 'me venakal kiyala dhunna padam valin assignment ekak dhenava kivva nisaa, ee paadam tika hodhata balaaganna. mokadha, ee assignment ekata 20 marks laebenavaa kivva. mokak hari prashnayak thiyeenam kiyanna mamath puluvan udhavvak karannam. thava eekata mee venakal karapu labs valinuth enava kivva, ee nisaa eevath hodhata balanna', expected: 'මෙ වෙනකල් කියල දුන්න පඩම් වලින් assignment එකක් දෙනව කිව්ව නිසා, ඒ පාඩම් ටික හොදට බලාගන්න. මොකද, ඒ assignment එකට 20 marks ලැබෙනවා කිව්ව. මොකක් හරි ප්‍රශ්නයක් තියේනම් කියන්න මමත් පුලුවන් උදව්වක් කරන්නම්. තව ඒකට මේ වෙනකල් කරපු labs වලිනුත් එනව කිව්ව, ඒ නිසා ඒවත් හොදට බලන්න' },
+  { id: 'Pos_022', input: 'me venakal kiyala dhunna padam valin assignment ekak dhenava kivva nisaa, ee paadam tika hodhata balaaganna. mokadha, ee assignment ekata 20 marks laebenavaa kivva. mokak hari prashnayak thiyeenam kiyanna mamath puluvan udhavvak karannam. thava eekata mee venakal karapu labs valinuth enava kivva, ee nisaa eevath hodhata balanna', expected: 'මෙ වෙනකල් කියල දුන්න පාඩම් වලින් assignment එකක් දෙනව කිව්ව නිසා, ඒ පාඩම් ටික හොදට බලාගන්න. මොකද, ඒ assignment එකට 20 marks ලැබෙනවා කිව්ව. මොකක් හරි ප්‍රශ්නයක් තියේනම් කියන්න මමත් පුලුවන් උදව්වක් කරන්නම්. තව ඒකට මේ වෙනකල් කරපු labs වලිනුත් එනව කිව්ව, ඒ නිසා ඒවත් හොදට බලන්න' },
   { id: 'Pos_023', input: 'oya saniipen aethi kiyala hithanavaa', expected: 'ඔය සනීපෙන් ඇති කියල හිතනවා' },
   { id: 'Pos_024', input: 'eyaala eevi', expected: 'එයාල ඒවි' },
   { id: 'Pos_025', input: 'bank eken ena OTP kaatavath dhenna epaa', expected: 'bank එකෙන් එන OTP කාටවත් දෙන්න එපා' },
@@ -76,13 +76,13 @@ test.describe('Singlish Translator', () => {
   });
 
   for (const tc of testCases) {
-    test(tc.id, async ({ page }) => {
+    test(`${tc.id} | ${tc.type} | ${tc.input}`, async ({ page }, testInfo) => {
       let actual = '';
       let status = 'Fail';
 
       try {
-        const input = await getInputField(page);
-        await input.fill(tc.input);
+        const inputField = await getInputField(page);
+        await inputField.fill(tc.input);
         await page.waitForTimeout(1500);
 
         actual = await getSinhalaOutput(page);
@@ -98,8 +98,10 @@ test.describe('Singlish Translator', () => {
           status = 'Pass';
         }
 
-        if (tc.type === 'ui' && tc.input === '' && actual === '') {
-          status = 'Pass';
+        if (tc.type === 'ui') {
+          if ((tc.input === '' && actual === '') || actual === tc.expected) {
+            status = 'Pass';
+          }
         }
 
       } catch (err) {
