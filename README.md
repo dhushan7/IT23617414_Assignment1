@@ -3,8 +3,10 @@
 ## This project is for academic purposes as part of IT3040 coursework.
 ---
 
-👤 Author
+## 👤 Author
+
 Name: Minindu Madhushan P.Y.
+
 Registration No.: IT23617414
 
 ---
