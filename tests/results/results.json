@@ -1,0 +1,37 @@
+[
+  {
+    "id": "Pos_021",
+    "input": "mokadha karanne",
+    "expected": "මොකද කරන්නේ",
+    "actual": "Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishmokadha karanneකරන්නකරන්නටකරන්නාකරන්නීකරන්නේකරන්නෝකරන්නක්කරන්නාටකරන්නියකරන්නට හිතෙනවාකරන්නට බැඳී සිටිනකරන්නට කැමැතියයි කීමකරන්නට විශේෂ වැඩක් නැතිවකරන්නා පරෙස්සම් විය යුතුයකරණ්ණෙකරණ්නෙකරන්ණෙකරන්නෙඛරණ්ණෙඛරණ්නෙSinhalaමොකද කරන්නේ🔁 Translate🗑️ ClearEnglish",
+    "status": "Fail"
+  },
+  {
+    "id": "Pos_022",
+    "input": "me venakal kiyala dhunna padam valin assignment ekak dhenava kivva nisaa, ee paadam tika hodhata balaaganna. mokadha, ee assignment ekata 20 marks laebenavaa kivva. mokak hari prashnayak thiyeenam kiyanna mamath puluvan udhavvak karannam. thava eekata mee venakal karapu labs valinuth enava kivva, ee nisaa eevath hodhata balanna",
+    "expected": "මෙ වෙනකල් කියල දුන්න පඩම් වලින් assignment එකක් දෙනව කිව්ව නිසා, ඒ පාඩම් ටික හොදට බලාගන්න. මොකද, ඒ assignment එකට 20 marks ලැබෙනවා කිව්ව. මොකක් හරි ප්‍රශ්නයක් තියේනම් කියන්න මමත් පුලුවන් උදව්වක් කරන්නම්. තව ඒකට මේ වෙනකල් කරපු labs වලිනුත් එනව කිව්ව, ඒ නිසා ඒවත් හොදට බලන්න",
+    "actual": "Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishme venakal kiyala dhunna padam valin assignment ekak dhenava kivva nisaa, ee paadam tika hodhata balaaganna. mokadha, ee assignment ekata 20 marks laebenavaa kivva. mokak hari prashnayak thiyeenam kiyanna mamath puluvan udhavvak karannam. thava eekata mee venakal karapu labs valinuth enava kivva, ee nisaa eevath hodhata balannaබලන්නබලන්නාබලණ්ණබලණ්නබලන්ණබළණ්ණබළණ්නබළන්ණබළන්නඹලණ්ණඹලණ්නඹලන්ණඹලන්නඹළණ්ණඹළණ්නඹළන්ණඹළන්නSinhalaමෙ වෙනකල් කියල දුන්න පඩම් වලින් assignment එකක් දෙනව කිව්ව නිසා, ඒ පාඩම් ටික හොදට බලාගන්න. මොකද, ඒ assignment එකට 20 marks ලැබෙනවා කිව්ව. මොකක් හරි ප්‍රශ්නයක් තියේනම් කියන්න මමත් පුලුවන් උදව්වක් කරන්නම්. තව ඒකට මේ වෙනකල් කරපු labs වලිනුත් එනව කිව්ව, ඒ නිසා ඒවත් හොදට බලන්න🔁 Translate🗑️ ClearEnglish",
+    "status": "Fail"
+  },
+  {
+    "id": "Pos_023",
+    "input": "oya saniipen aethi kiyala hithanavaa",
+    "expected": "ඔය සනීපෙන් ඇති කියල හිතනවා",
+    "actual": "Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishoya saniipen aethi kiyala hithanavaaහිතනවාහිතණවාහිථණවාහිථනවාSinhalaඔය සනීපෙන් ඇති කියල හිතනවා🔁 Translate🗑️ ClearEnglish",
+    "status": "Fail"
+  },
+  {
+    "id": "Pos_024",
+    "input": "eyaala eevi",
+    "expected": "එයාල ඒවි",
+    "actual": "Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlisheyaala eeviඒවාඒවගේඒවායේඒවිSinhalaඑයාල ඒවි🔁 Translate🗑️ ClearEnglish",
+    "status": "Fail"
+  },
+  {
+    "id": "Pos_025",
+    "input": "bank eken ena OTP kaatavath dhenna epaa",
+    "expected": "bank එකෙන් එන OTP කාටවත් දෙන්න එපා",
+    "actual": "Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishbank eken ena OTP kaatavath dhenna epaaඑපාඑපායඑපාවටඑපාකම්එපාවීමඑපාවුනඑපා කරපුඑපා වුණුඑපා කරනවාඑපා වෙනවාඑඵාSinhalabank එකෙන් එන OTP කාටවත් දෙන්න එපා🔁 Translate🗑️ ClearEnglish",
+    "status": "Fail"
+  }
+]

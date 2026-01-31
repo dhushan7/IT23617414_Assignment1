@@ -1,0 +1,18 @@
+[
+  {
+    "TC ID": "Neg_002",
+    "Type": "negative",
+    "Input": "tnx bro",
+    "Expected": "",
+    "Actual": "Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishtnx broSinhala🔁 Translate🗑️ ClearEnglish",
+    "Status": "Fail"
+  },
+  {
+    "TC ID": "Neg_003",
+    "Type": "negative",
+    "Input": "api api api yamu",
+    "Expected": "",
+    "Actual": "Singlish ↔ English TranslatorHelpSwitch Typing LanguageSinglishSinhalaFeaturesView SuggestionsUses AI to correct grammar (e.g. piliwela -> පිළිවෙළ).Word AutocorrectAutomatically correct common typos in input.Singlish Touchpadඅආඇඈඉඊඋඌඍඎඏඐඑඒඓඔඕඖකඛගඝඞඟචඡජඣඤටඨඩඪණඬතථදධනඳපඵබභමඹයරලවශෂසහෆළාැෑිීුූෘෙේෛොෝෟංඃ්්‍ර්‍ය⌫␣Singlishapi api api yamuSinhala🔁 Translate🗑️ ClearEnglish",
+    "Status": "Fail"
+  }
+]
