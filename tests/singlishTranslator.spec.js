@@ -3,7 +3,7 @@ import { existsSync, mkdirSync, writeFileSync } from 'fs';
 import { join } from 'path';
 
 const testCases = [
-  //positive cases
+  
   { id: 'Pos_001', input: 'adha mama gedhara enavaa', expected: 'අද මම ගෙදර එනවා' },
   { id: 'Pos_002', input: 'mama me dhavas vala asaniipen innee, namuth mata me vaeda tika karagannath oonaa', expected: 'මම මෙ දවස් වල අසනීපෙන් ඉන්නේ, නමුත් මට මෙ වැඩ ටික කරගන්නත් ඕනා' },
   { id: 'Pos_003', input: 'oyaa yanavaa nam mama enne naee', expected: 'ඔයා යනවා නම් මම එන්නෙ නෑ' },
@@ -29,7 +29,6 @@ const testCases = [
   { id: 'Pos_023', input: 'oya saniipen aethi kiyala hithanavaa', expected: 'ඔය සනීපෙන් ඇති කියල හිතනවා' },
   { id: 'Pos_024', input: 'eyaala eevi', expected: 'එයාල ඒවි' },
   { id: 'Pos_025', input: 'bank eken ena OTP kaatavath dhenna epaa', expected: 'bank එකෙන් එන OTP කාටවත් දෙන්න එපා' },
-  //negative cases
   { id: 'Neg_001', input: 'apihetaassignmentekakaramuehenam', expected: '' },
   { id: 'Neg_002', input: 'tnx bro', expected: '' },
   { id: 'Neg_003', input: 'api api api yamu', expected: '' },
@@ -40,7 +39,6 @@ const testCases = [
   { id: 'Neg_008', input: 'මම gedara yanawa', expected: '' },
   { id: 'Neg_009', input: 'godak sthuthi!!!!!!!!!', expected: '' },
   { id: 'Neg_010', input: 'API wada karanawada', expected: '' },
-  //UI
   { id: 'UI_001', input: '', expected: '' },
   { id: 'UI_002', input: 'mama heta enavaa', expected: 'මම හෙට එනවා' }
 ];
