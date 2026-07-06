@@ -15,6 +15,7 @@ Registration No.: IT23617414
 Playwright automation tests for Singlish-to-Sinhala translator testing (IT3040 Assignment 1).
 
 Test Stats
+
 ✅ 24 Positive Test Cases
 
 ❌ 10 Negative Test Cases
